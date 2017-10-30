@@ -1,0 +1,15 @@
+repositories {
+    mavenCentral()
+    maven {
+        url "https://dist.xebialabs.com/public/maven2"
+    }
+}
+
+version="0.1"
+
+apply plugin: "java"
+
+dependencies {
+    compile "com.xebialabs.deployit:udm-plugin-api:2017.6.0"
+    compile "com.xebialabs.overthere:overthere:5.0.2"
+}
